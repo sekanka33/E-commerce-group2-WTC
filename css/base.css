@@ -1,0 +1,38 @@
+/* ===== CSS VARIABLES ===== */
+:root {
+--primary-color: #2563eb; /* blue */
+--primary-dark: #1e40af;
+--secondary-color: #22c55e; /* green */
+--text-dark: #0f172a;
+--text-light: #64748b;
+--bg-light: #f8fafc;
+--white: #ffffff;
+--border-color: #e5e7eb;
+}
+
+
+/* ===== RESET ===== */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body {
+font-family: 'Inter', sans-serif;
+background-color: var(--bg-light);
+color: var(--text-dark);
+line-height: 1.6;
+}
+
+img {
+max-width: 100%;
+display: block;
+}
+
+
+a {
+text-decoration: none;
+color: inherit;
+}
