@@ -1,48 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>ElectroStore | Home</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ElectroStore | Home</title>
 
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<!-- Google Font -->
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-
-<!-- CSS Files -->
-<link rel="stylesheet" href="css/base.css" />
-<link rel="stylesheet" href="css/layout.css" />
-<link rel="stylesheet" href="css/components.css" />
+  <!-- Homepage CSS -->
+  <link rel="stylesheet" href="css/homepage.css" />
 </head>
 <body>
 
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <h1 class="logo">Electro<span>Store</span></h1>
 
-<header>
-<div class="container nav">
-<h1>ElectroStore</h1>
-<ul>
-<li><a href="homepage.html">Home</a></li>
-<li><a href="products.html">Products</a></li>
-<li><a href="cart.html">Cart</a></li>
-<li><a href="about.html">About</a></li>
-</ul>
-</div>
-</header>
+    <nav class="nav-links">
+      <a href="homepage.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="product-details.html">Details</a>
+      <a href="about.html">About</a>
+      <a href="cart.html" class="cart-btn">Cart</a>
+    </nav>
+  </header>
 
-<main class="container">
-<section class="card">
-<h2>Latest Electronics</h2>
-<p>Shop the best electronics at affordable prices.</p>
-<button class="btn btn-primary">Shop Now</button>
-</section>
-</main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="hero-tag">Best deals on electronics</p>
+      <h2>SMART WEARABLES</h2>
+      <p class="hero-sub">
+        Upgrade your lifestyle with the latest smart devices.
+        Up to <strong>80% OFF</strong>.
+      </p>
+      <a href="products.html" class="btn-primary">Shop Now</a>
+    </div>
 
-
-<footer>
-<p>© 2025 ElectroStore. All rights reserved.</p>
-</footer>
-
+    <div class="hero-image">
+      <img src="assets/images/ChatGPT Image Dec 17, 2025, 07_24_25 PM.png" alt="Smart Watch">
+    </div>
+  </section>
 
 </body>
 </html>

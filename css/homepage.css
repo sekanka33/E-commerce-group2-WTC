@@ -1,0 +1,92 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== GLOBAL ===== */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F8FAFC;
+  color: #0F172A;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1E3A8A;
+}
+
+.logo span {
+  color: #22C55E;
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #1E293B;
+  font-weight: 500;
+}
+
+.cart-btn {
+  background-color: #22C55E;
+  color: white !important;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 3rem;
+  background-color: #1E3A8A;
+  border-radius: 16px;
+  margin: 2rem;
+  color: white;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-tag {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.hero-text h2 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.hero-sub {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.btn-primary {
+  background-color: #22C55E;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero-image img {
+  max-width: 300px;
+}
