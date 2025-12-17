@@ -55,6 +55,8 @@ body {
   background-color: #1E3A8A;
   border-radius: 16px;
   margin: 2rem;
+  margin-left: 50px;
+  margin-right: 50px;
   color: white;
 }
 
@@ -89,4 +91,88 @@ body {
 
 .hero-image img {
   max-width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== FOOTER ===== */
+.footer {
+  background-color: #0F172A;
+  color: #E5E7EB;
+  margin-top: 4rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+  gap: 2rem;
+}
+
+.footer h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer h3 span {
+  color: #22C55E;
+}
+
+.footer h4 {
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.footer-links a {
+  display: block;
+  color: #E5E7EB;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a:hover {
+  color: #22C55E;
+}
+
+.footer-contact p {
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 1rem;
+  background-color: #020617;
+  font-size: 0.85rem;
 }
