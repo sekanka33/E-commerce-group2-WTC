@@ -1,22 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>ElectroStore | Home</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ElectroStore | Home</title>
 
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<!-- Google Font -->
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-
-<!-- CSS Files -->
-<link rel="stylesheet" href="css/base.css" />
-<link rel="stylesheet" href="css/layout.css" />
-<link rel="stylesheet" href="css/components.css" />
+  <!-- Homepage CSS -->
+  <link rel="stylesheet" href="css/homepage.css" />
 </head>
 <body>
 
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <h1 class="logo">Electro<span>Store</span></h1>
+
+    <nav class="nav-links">
+      <a href="homepage.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="product-details.html">Details</a>
+      <a href="about.html">About</a>
+      <a href="cart.html" class="cart-btn">Cart</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="hero-tag">Best deals on electronics</p>
+      <h2>SMART WEARABLES</h2>
+      <p class="hero-sub">
+        Upgrade your lifestyle with the latest smart devices.
+        Up to <strong>80% OFF</strong>.
+      </p>
+      <a href="products.html" class="btn-primary">Shop Now</a>
+    </div>
+
+    <div class="hero-image">
+      <img src="assets/images/ChatGPT Image Dec 17, 2025, 07_24_25 PM.png" alt="Smart Watch">
+    </div>
+  </section>
+
+  <!-- ===== TOP CELLPHONES & TABLETS ===== -->
+<section class="top-products">
+
+  <div class="top-header">
+    <h2>Best Selling Products</h2>
+    <a href="products.html">View All</a>
+  </div>
+
+  <div class="top-content">
+
+    <!-- PROMO CARD -->
+<div class="promo-card">
+  <div class="promo-text">
+    <h3>iPhone 17 Pro Max</h3>
+    <p>Rise to the challenge</p>
+    <button>Shop Now</button>
+  </div>
 
 <header>
 <div class="container nav">
@@ -29,19 +74,131 @@
 <li><a href="contact.html">Contact</a></li>
 </ul>
 </div>
-</header>
 
-<main class="container">
-<section class="card">
-<h2>Latest Electronics</h2>
-<p>Shop the best electronics at affordable prices.</p>
-<button class="btn btn-primary">Shop Now</button>
+
+
+    <div class="categories">
+
+  <div class="category">
+    <div class="cat-img">
+      <img src="assets/images/iphone 1622.webp" alt="iPhone16">
+    </div>
+    <p>iPhone(ios)</p>
+    <span>74 items</span>
+  </div>
+
+  <div class="category">
+    <div class="cat-img">
+      <img src="assets/images/samsung s25 ultra.jpeg" alt="samsung-ultra">
+    </div>
+    <p>Android</p>
+    <span>35 items</span>
+  </div>
+
+  <div class="category">
+    <div class="cat-img">
+      <img src="assets/images/wifi.webp" alt="5G">
+    </div>
+    <p>5G Support</p>
+    <span>12 items</span>
+  </div>
+
+  <div class="category">
+    <div class="cat-img">
+      <img src="assets/images/gaming.jpeg" alt="Gaming">
+    </div>
+    <p>Gaming</p>
+    <span>9 items</span>
+  </div>
+
+  <div class="category">
+    <div class="cat-img">
+      <img src="assets/images/xiomi.jpeg" alt="Xiaomi">
+    </div>
+    <p>Xiaomi</p>
+    <span>52 items</span>
+  </div>
+
+  <div class="category">
+    <div class="cat-img">
+      <img src="assets/images/head.jpeg" alt="Accessories">
+    </div>
+    <p>Accessories</p>
+    <span>29 items</span>
+  </div>
+
+</div>
+
+
+  </div>
+
+  <div class="product-grid">
+
+    <div class="product-card">
+      <span class="badge save">Save R1000</span>
+      <img src="assets/images/download 17.jpeg" alt="Phone">
+      <h4>Iphone 17 Pro Max</h4>
+      <p class="price">R35 999.00</p>
+      <span class="stock">✔ In stock</span>
+    </div>
+
+    <div class="product-card">
+      <span class="badge new">New</span>
+      <img src="assets/images/SAMSUNG TAB.jpeg" alt="Tablet">
+      <h4>Samsung Tab 9</h4>
+      <p class="price">R23 000</p>
+      <span class="stock">✔ In stock</span>
+    </div>
+
+    <div class="product-card">
+      <img src="assets/images/HUAWEI PURA.webp" alt="Tablet">
+      <h4>Huawei Pura 80</h4>
+      <p class="price">R29 999</p>
+      <span class="stock">✔ In stock</span>
+    </div>
+
+    <div class="product-card">
+      <span class="badge save">Save R500</span>
+      <img src="assets/images/Xiaomi Redmi Note 5.webp" alt="Phone">
+      <h4>Xiaomi Redmi Note 5</h4>
+      <p class="price">R4 999</p>
+      <span class="stock">✔ In stock</span>
+    </div>
+
+  </div>
+
 </section>
-</main>
 
 
-<footer>
-<p>© 2025 ElectroStore. All rights reserved.</p>
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-brand">
+      <h3>Electro<span>Store</span></h3>
+      <p>Your trusted electronics store for smart devices and accessories.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <a href="homepage.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="cart.html">Cart</a>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <p>Email: support@electrostore.com</p>
+      <p>Phone: +27 12 345 6789</p>
+      <p>Location: South Africa</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 ElectroStore. All rights reserved.</p>
+  </div>
 </footer>
 
 
